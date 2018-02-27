@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Chechenin Alesha](https://up.htmlacademy.ru/htmlcss/20/user/605311).
-* Наставник: `Неизвестно`.
+* Наставник: [Vladislav Rostov](https://htmlacademy.ru/profile/id425565)
 
 ---
 
