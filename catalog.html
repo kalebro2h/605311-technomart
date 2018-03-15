@@ -3,40 +3,49 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HTML Academy: Техномарт</title>
+		 <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i&amp;subset=cyrillic-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic-ext" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 
 		<header>
-			<h1>Техномарт</h1>
-			<!-- Форма поиска -->
-			<div class="search">
-				<input type="search">
-			</div>
-			<div>
-				<a class="bookmarks" href="#bookmarks">Закладки: 0</a>
-				<a class="basket" href="#basket">Корзина: 0</a>
-				<a class="ordering" href="#ordering">Оформить заказ</a>
-			</div>
+			<header>
+            <h1>Техномарт</h1>
+            <div class="search">
+                <input type="search" name="search" placeholder="Логин" id="search">
+            </div>
+            <div class="top-menu">
+                <a class="bookmarks" href="#bookmarks">Закладки: 0</a>
+                <a class="basket" href="#basket">Корзина: 0</a>
+                <a class="ordering" href="#ordering">Оформить заказ</a>
+            </div>
 
-			<div class="desription">
-				Интернет-магазин строительных материалов и инструментов для ремонта
-			</div>
-			<div class="telephone">
-				+7(812) 555-05-55
-			</div>
-			<div class="adress">
-				г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-			</div>
+            <div class="desription">
+                Интернет-магазин строительных материалов и инструментов для ремонта
+            </div>
+            <div class="telephone">
+                +7(812) 555-05-55
+            </div>
+            <div class="adress">
+                г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+            </div>
 
 			<div class="login">
-				<ul class="user-block">
-					<li>Равшан Дшамшутович</li>
+				<li><a href="#">Равшан Дшамшутович</a></li>
+			</div>
+
+			<div class="user-information">
+				<ul>
+					<li><a href="#">Мои заказы</a></li>
+					<li><a href="#">Личный кабинет</a></li>
 				</ul>
 			</div>
 
 			<nav class="main-navigation">
 				<ul class="site-navigation">
-					<li><a href="#main-page.html">Главная</a></li>
+					<li><a href="index.html">Главная</a></li>
 					<li><a href="#about-company.html">Компания</a></li>
 					<li><a href="catalog.html">Каталог</a></li>
 					<li><a href="#news.html">Новости</a></li>
@@ -51,7 +60,7 @@
 
 			<div class="navigation">
 				<ul class="navigation">
-					<li class="#home-icon"><a href="index.html" aria-label="Главная">123</a></li>
+					<li class="#home-icon"><a href="index.html" aria-label="Главная">domik</a></li>
 					<li><a href="#catalog.html">Каталог</a></li>
 					<li><a href="#instrument.html"">Инструмент</a></li>
 					<li><a href="#drills.html">Перфораторы</a></li>
@@ -59,24 +68,21 @@
 			</div>
 
 			<h2>Перфораторы</h2>
-			<span>фильтр:</span>
+			<span class="navigation">фильтр:</span>
 
 			<section class="filters">
 				<div class="price-filter">
 					<h5>Цена:</h5>
 					<form>
 						<input type="range" name="range" min="0" max="30000">
-					</form>
 				</div>
 				<div class="manufacturer-filter">
 					<h5>Производители</h5>
-					<form>
 						<input type="checkbox" name="checkbox" id="checkbox-bosch" value="BOSCH"><label for="checkbox-bosch">BOSCH</label>
 						<input type="checkbox" name="checkbox" id="checkbox-interskol" value="Интерскол"><label for="checkbox-interskol">Интерскол</label>
 						<input type="checkbox" name="checkbox" id="checkbox-makita" value="Makita"><label for="checkbox-makita">MAKITA</label>
 						<input type="checkbox" name="checkbox" id="checkbox-dewalt" value="DeWalt"><label for="checkbox-dewalt">DEWALT</label>
 						<input type="checkbox" name="checkbox" id="checkbox-hitachi" value="Hitachi"><label for="checkbox-hitachi">Hitachi</label>
-					</form>
 				</div>
 				<div class="power-filter">
 					<h5>Питание</h5>
@@ -89,11 +95,12 @@
 			</section>
 
 			<div class="submenu">
-				<span>Сортировка</span>
-				<span>По типу</span>
-				<span>По функционалу</span>
-				<button class="up-icon"></button>
-				<button class="down-icon"></button>
+				<span class="navigation">Сортировка</span>
+				<a href="#index.html" class="for-price">По цене</a>
+				<a href="#index.html" class="for-tips">По типу</a>
+				<a href="#index.html" class="for-tips">По функционалу</a>
+				<a href="#index.html" class="up-icon" aria-label="Фильтр по возврастанию">1</a>
+				<a href="#index.html" class="down-icon" aria-label="Фильтр по убыванию">2</a>
 			</div>
 
 			<section class="drills">
@@ -189,13 +196,13 @@
 
 				<ul>
 					<li>
-						<a href="#1" class="page-numbler">1</a>
+						<a href="#1" class="page-number">1</a>
 					</li>
 					<li>
-						<a href="#2" class="page-numbler">2</a>
+						<a href="#2" class="page-number">2</a>
 					</li>
 					<li>
-						<a href="#3" class="page-numbler">3</a>
+						<a href="#3" class="page-number">3</a>
 					</li>
 					<li>
 						<a href="#page-next" class="page-next">Следующая</a>
@@ -211,53 +218,53 @@
 		</main>
 
 		<footer class="first-footer">
-			<span>Техномарт</span>
+            <span class="tehnomart">Техномарт</span>
 
-			<nav class="footer-navigation1">
-				<ul class="site-navigation1">
-					<li><a href="#about-company.html">Компания</a></li>
-					<li><a href="#news.html">Новости</a></li>
-					<li><a href="catalog.html">Каталог</a></li>
-					<li><a href="#delivery.html">Доставка</a></li>
-					<li><a href="#contact.html">Контакты</a></li>
-				</ul>
-			</nav>
+            <nav class="footer-navigation1">
+                <ul class="site-navigation1">
+                    <li><a href="#about-company.html">Компания</a></li>
+                    <li><a href="#news.html">Новости</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="#delivery.html">Доставка</a></li>
+                    <li><a href="#contact.html">Контакты</a></li>
+                </ul>
+            </nav>
 
-			<div class="footer-adress">
-				г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-				+7 (812) 555-05-55
-			</div>
+            <div class="footer-adress">
+                г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+                +7 (812) 555-05-55
+            </div>
 
-			<nav class="footer-navigation2">
-				<ul class="site-navigation2">
-					<li><a href="#materials.html">Материалы</a></li>
-					<li><a href="#technics.html">Техника</a></li>
-					<li><a href="instrument.html">Инструмент</a></li>
-					<li><a href="#special-offer.html">Спецпредложения</a></li>
-				</ul>
-			</nav>
+            <nav class="footer-navigation2">
+                <ul class="site-navigation2">
+                    <li><a href="#materials.html">Материалы</a></li>
+                    <li><a href="#technics.html">Техника</a></li>
+                    <li><a href="instrument.html">Инструмент</a></li>
+                    <li><a href="#special-offer.html">Спецпредложения</a></li>
+                </ul>
+            </nav>
 
-			<div class="bottom">
+            <div class="bottom">
 
-				<div class="copyright">
-					© 2010-2016 Компания «Техномарт»
-					Все права защищены
-				</div>
+                <div class="copyright">
+                    © 2010-2016 Компания «Техномарт»
+                    Все права защищены
+                </div>
 
-				<div class="social">
-					<a href="#vk.com" class="social-btn-vk" aria-label="Вконтакте">123</a>
-					<a href="#fb.com" class="social-btn-fb" aria-label="Фейсбук">123</a>
-					<a href="#instagram.com" class="social-btn-inst" aria-label="Инстаграм">123</a>
-				</div>
+                <div class="social">
+                    <a href="#vk.com" class="social-btn-vk" aria-label="Вконтакте">btn-vk</a>
+                    <a href="#fb.com" class="social-btn-fb" aria-label="Фейсбук">btn-fb</a>
+                    <a href="#instagram.com" class="social-btn-inst" aria-label="Инстаграм">btn-inst</a>
+                </div>
 
-				<div class="copyright">
-					<span>Обратная связь:</span> <a href="">mail@htmlacademy.ru</a>
-				</div>
+                <div class="copyright">
+                    <span>Обратная связь:</span> <a href="#" class="mail-site">mail@htmlacademy.ru</a>
+                </div>
 
-				<div class="copyright">
-					<span>Разработано -</span> <a href="htmlacademy.ru">htmlacademy.ru</a>
-				</div>
-			</div>
-		</footer>
+                <div class="copyright">
+                    <span>Разработано -</span> <a href="htmlacademy.ru" class="mail-site">htmlacademy.ru</a>
+                </div>
+            </div>
+        </footer>
 	</body>
 </html>

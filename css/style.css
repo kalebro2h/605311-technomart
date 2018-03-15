@@ -1,0 +1,378 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Cuprum, Arial, sens-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: black;
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h1 {
+	font-size: 24px;
+	line-height: 21px;
+	text-transform: uppercase;
+	background-color: red;
+	box-shadow: 0 5px 0 #b52933;
+}
+
+.search {
+	font-size: 17px;
+	line-height: 18px;
+}
+
+.top-menu {
+	font-size: 17px;
+	line-height: 18px;
+}
+
+.desription {
+	font-size: 16px;
+	font-style: italic;
+	color: #ee3643;
+	line-height: 23px;
+}
+
+.telephone {
+	font-size: 21px;
+	line-height: 21px;
+	color: #ee3643;
+}
+
+.adress {
+	font-size: 14px;
+	color: #32425c;
+}
+
+.user-block {
+	font-size: 21px;
+	line-height: 21px;
+	color: #000000;
+}
+
+.main-navigation {
+	font-size: 17px;
+	line-height: 17px;
+	background-color: #32425c;
+}
+
+.main-navigation li:hover {
+	background: #293449;
+}
+
+.main-navigation li:active {
+	background: #1d2739;
+}
+
+.site-navigation a {
+	color: white;
+}
+
+.site-navigation {
+	list-style: none;
+}
+
+.category-caption {
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;
+}
+
+.category-btn {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	border: 3px;
+	display: inline-block;
+	background: rgba(0,0,0,.1);
+	text-align: center;
+}
+
+.category-btn:hover {
+	background-color: rgba(0,0,0,.2);
+}
+
+.category-btn:active {
+	background-color: rgba(0,0,0,.3);
+}
+
+.slider-description-first {
+	font-size: 36px;
+	line-height: 36px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.slider-description-second {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+}
+
+.block1 {
+	width: 300px;
+	height: 123px;
+	background-color: #ffbf47;
+}
+
+.block2 {
+	width: 300px;
+	height: 123px;
+	background-color: #3bbce3;
+}
+
+.block3 {
+	width: 300px;
+	height: 123px;
+	background-color: #dc91d8;
+}
+
+.block4 {
+	width: 300px;
+	height: 123px;
+	background-color: #8ed78f;
+}
+
+.block5 {
+	width: 300px;
+	height: 123px;
+	background-color: #ffc047;
+}
+
+.btn {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	border: 3px;
+	display: inline-block;
+	background: #ba2732;
+	text-align: center;
+}
+
+.btn:hover {
+	background-color: #ca2c37;
+}
+
+.btn:active {
+	background-color: #ee3643;
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #32425c;
+}
+
+.bosch-description {
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+	font-family: PT Sans, Arial, sens-serif;
+}
+
+.old-price {
+	font-size: 17px;
+	line-height: 18px;
+	color: #a9a9a9;
+	font-weight: bold;
+	text-decoration: line-through;
+	font-family: PT Sans, Arial, sens-serif;
+}
+
+.drill-btn {
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+	background-color: #ee3643;
+	font-family: PT Sans, Arial, sens-serif;
+}
+
+.servises-btn {
+	font-size: 21px;
+	line-height: 30px;
+	font-weight: bold;
+	background-color: #32425c;
+	color: #ffffff;
+	outline: none;
+	text-align: left;
+}
+
+.servises-btn:hover {
+	background-color: #293449;
+}
+
+.servises-btn:active {
+	background-color: #ffffff;
+	color: #32425c;
+}
+
+
+.tehnomart {
+	font-size: 30px;
+	line-height: 30px;
+	color: #ffffff;
+	background-color: #ee3643;
+	box-shadow: 0 5px 0 #b52933;
+	text-transform: uppercase;
+}
+
+.first-footer {
+	background-color: #32425c;
+}
+
+.bottom {
+ background-color: #293449;
+}
+
+.footer-adress {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+}
+
+.footer-navigation1 a {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+}
+
+.footer-navigation1 a:hover {
+	color: #f1f5f7;
+	text-decoration: underline;
+}
+
+.footer-navigation1 a:active {
+	opacity: 0.5;
+	
+}
+
+.footer-navigation2 a {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffd180;
+}
+
+.footer-navigation2 a:hover {
+	color: #ffd180;
+	text-decoration: underline;
+}
+
+.footer-navigation2 a:active {
+	opacity: 0.5;
+}
+
+.copyright {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.copyright .mail-site {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffd180;
+}
+
+.copyright .mail-site:hover {
+	text-decoration: underline;
+}
+
+.copyright .mail-site:active {
+	color: #ee3643;
+}
+
+.popup {
+	position: absolute;
+  	clip: rect(0 0 0 0);
+  	width: 1px;
+  	height: 1px;
+  	margin: -1px;
+}
+
+.user-information {
+	text-decoration: underline;
+	font-size: 16px;
+	line-height: 18px;
+	color: #32425c;
+}
+
+.user-information li:hover {
+	color: #ee3643;
+}
+
+.user-information li:active {
+	color: #32425c;
+	opacity: 0.3;
+}
+
+.login {
+	font-size: 21px;
+	line-height: 21px;
+}
+
+.login:hover {
+	
+}
+
+.login:active {
+	opacity: 0.3;
+}
+
+.navigation {
+	font-size: 13px;
+	line-height: 18px;
+	font-family: PT Sans, Arial, sens-serif;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-family: PT Sans, Arial, sens-serif;
+	text-transform: uppercase;
+	font-size: 17px;
+	line-height: 18px;
+}
+
+.manufacturer-filter {
+	font-family: PT Sans, Arial, sens-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.power-filter {
+	font-family: PT Sans, Arial, sens-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+ .page-number {
+	font-family: PT Sans, Arial, sens-serif;
+	font-size: 13px;
+	line-height: 18px;
+	border: 1px;
+	border-color: ##e5e5e5;
+}
+
+.page-number:hover {
+	border-color: #bdc6ca;
+}
+
+.page-number:active {
+	border-color: #ee3643;
+}
+
+.about-driils {
+	font-size: 13px;
+	line-height: 24px;
+	font-family: PT Sans, Arial, sens-serif;
+}
+
