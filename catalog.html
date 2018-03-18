@@ -3,15 +3,14 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HTML Academy: Техномарт</title>
-		 <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i&amp;subset=cyrillic-ext" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic-ext" rel="stylesheet">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i&amp;subset=cyrillic-ext" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic-ext" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 
 		<header>
-			<header>
             <h1>Техномарт</h1>
             <div class="search">
                 <input type="search" name="search" placeholder="Логин" id="search">
@@ -33,7 +32,7 @@
             </div>
 
 			<div class="login">
-				<li><a href="#">Равшан Дшамшутович</a></li>
+				<a href="#">Равшан Дшамшутович</a>
 			</div>
 
 			<div class="user-information">
@@ -71,26 +70,25 @@
 			<span class="navigation">фильтр:</span>
 
 			<section class="filters">
-				<div class="price-filter">
-					<h5>Цена:</h5>
-					<form>
-						<input type="range" name="range" min="0" max="30000">
-				</div>
-				<div class="manufacturer-filter">
-					<h5>Производители</h5>
-						<input type="checkbox" name="checkbox" id="checkbox-bosch" value="BOSCH"><label for="checkbox-bosch">BOSCH</label>
-						<input type="checkbox" name="checkbox" id="checkbox-interskol" value="Интерскол"><label for="checkbox-interskol">Интерскол</label>
-						<input type="checkbox" name="checkbox" id="checkbox-makita" value="Makita"><label for="checkbox-makita">MAKITA</label>
-						<input type="checkbox" name="checkbox" id="checkbox-dewalt" value="DeWalt"><label for="checkbox-dewalt">DEWALT</label>
-						<input type="checkbox" name="checkbox" id="checkbox-hitachi" value="Hitachi"><label for="checkbox-hitachi">Hitachi</label>
-				</div>
-				<div class="power-filter">
-					<h5>Питание</h5>
-					<form>
-						<input type="radio" name="radio-power" id="radio-power-akk" value="radio-power-akk"><label for="radio-power-akk">Аккумуляторные</label>
-						<input type="radio" name="radio-power" id="radio-power-net" value="radio-power-net"><label for="radio-power-net">Сетевые</label>
-					</form>
-				</div>
+				<form>
+					<div class="price-filter">
+						<h5>Цена:</h5>
+							<input type="range" name="range" min="0" max="30000">
+					</div>
+					<div class="manufacturer-filter">
+						<h5>Производители</h5>
+							<input type="checkbox" name="checkbox" id="checkbox-bosch" value="BOSCH"><label for="checkbox-bosch">BOSCH</label>
+							<input type="checkbox" name="checkbox" id="checkbox-interskol" value="Интерскол"><label for="checkbox-interskol">Интерскол</label>
+							<input type="checkbox" name="checkbox" id="checkbox-makita" value="Makita"><label for="checkbox-makita">MAKITA</label>
+							<input type="checkbox" name="checkbox" id="checkbox-dewalt" value="DeWalt"><label for="checkbox-dewalt">DEWALT</label>
+							<input type="checkbox" name="checkbox" id="checkbox-hitachi" value="Hitachi"><label for="checkbox-hitachi">Hitachi</label>
+					</div>
+					<div class="power-filter">
+						<h5>Питание</h5>
+							<input type="radio" name="radio-power" id="radio-power-akk" value="radio-power-akk"><label for="radio-power-akk">Аккумуляторные</label>
+							<input type="radio" name="radio-power" id="radio-power-net" value="radio-power-net"><label for="radio-power-net">Сетевые</label>
+					</div>
+				</form>
 				<button class="show">Показать</button>
 			</section>
 
