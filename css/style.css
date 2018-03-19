@@ -31,6 +31,7 @@ h1 {
 	text-transform: uppercase;
 	background-color: red;
 	box-shadow: 0 5px 0 #b52933;
+	width: 200px;
 }
 
 h2 {
@@ -97,10 +98,13 @@ h5 {
 
 .site-navigation a {
 	color: white;
+	margin: 0 auto;
+
 }
 
 .site-navigation {
 	list-style: none;
+	
 }
 
 .category-caption {
