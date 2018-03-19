@@ -272,34 +272,34 @@ h5 {
 	color: #ffffff;
 }
 
-.footer-navigation1 a {
+.footer-navigation-top a {
 	font-size: 18px;
 	line-height: 24px;
 	color: #ffffff;
 }
 
-.footer-navigation1 a:hover {
+.footer-navigation-top a:hover {
 	color: #f1f5f7;
 	text-decoration: underline;
 }
 
-.footer-navigation1 a:active {
+.footer-navigation-top a:active {
 	opacity: 0.5;
 	
 }
 
-.footer-navigation2 a {
+.footer-navigation-bottom a {
 	font-size: 18px;
 	line-height: 24px;
 	color: #ffd180;
 }
 
-.footer-navigation2 a:hover {
+.footer-navigation-bottom a:hover {
 	color: #ffd180;
 	text-decoration: underline;
 }
 
-.footer-navigation2 a:active {
+.footer-navigation-bottom a:active {
 	opacity: 0.5;
 }
 
