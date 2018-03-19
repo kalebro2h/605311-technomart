@@ -31,7 +31,10 @@ h1 {
 	text-transform: uppercase;
 	background-color: red;
 	box-shadow: 0 5px 0 #b52933;
-	width: 200px;
+	width: 220px;
+	padding: 12px;
+	text-align: center;
+	color: white;
 }
 
 h2 {
@@ -56,8 +59,15 @@ h5 {
 .top-menu {
 	font-size: 17px;
 	line-height: 18px;
+	width: 100%;
+	background-color: #293449;
 }
 
+.ordering {
+	background-color: #63a63e;
+	width: 150px;
+	padding: 12px;
+}
 .desription {
 	font-size: 16px;
 	font-style: italic;
@@ -394,3 +404,28 @@ h5 {
 	font-family: PT Sans, Arial, sens-serif;
 }
 
+/* Сеточные стили */
+
+.main-navigation {
+	margin-bottom: 120px;
+}
+
+.block {
+	margin-bottom: 85px;
+}
+
+.popular-product {
+	margin-bottom: 50px;
+}
+
+.popular-manufacturers {
+	margin-bottom: 150px;
+}
+
+.servises {
+	margin-bottom: 180px;
+}
+
+main {
+	margin-bottom: 80px;
+}
