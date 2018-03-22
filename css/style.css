@@ -26,15 +26,20 @@ a {
 }
 
 h1 {
+	display: block;
 	font-size: 24px;
 	line-height: 21px;
 	text-transform: uppercase;
-	background-color: red;
+	background-color: #ee3643;
 	box-shadow: 0 5px 0 #b52933;
-	width: 220px;
-	padding: 12px;
 	text-align: center;
 	color: white;
+	margin: 0px;
+	width: 220px;
+	text-align: center;
+	padding-top: 11px;
+	padding-bottom: 9px;
+	
 }
 
 h2 {
@@ -51,34 +56,93 @@ h5 {
 	line-height: 18px;
 }
 
+h1:hover {
+	background-color: #ca2c37;
+}
+
+h1:active {
+	background-color: #ba2732;
+}
+
+li {
+	list-style-type: none;
+}
+
 .search {
 	font-size: 17px;
 	line-height: 18px;
+	text-align: center;
+	background-color: #293449;
+}
+
+.bookmarks {
+	display: block;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #293449;
+}
+
+.bookmarks:hover {
+	background-color: #212a3a;
+}
+
+.bookmarks:active {
+	background-color: #161d29;
+}
+
+.basket {
+	display: block;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #293449;
+}
+
+.basket:hover {
+	background-color: #212a3a;
+}
+
+.basket:active {
+	background-color: #161d29;
 }
 
 .top-menu {
 	font-size: 17px;
 	line-height: 18px;
-	width: 100%;
-	background-color: #293449;
-}
+	}
 
 .ordering {
 	background-color: #63a63e;
 	width: 150px;
 	padding: 12px;
+	text-align: center;
 }
+
+.ordering:hover {
+	background-color: #5fbb2d;
+}
+
+.ordering:active {
+	background-color: #518534;
+}
+
 .desription {
 	font-size: 16px;
 	font-style: italic;
 	color: #ee3643;
 	line-height: 23px;
+	margin-right: 80px;
+	margin-left: 55px;
+	float: left;
 }
 
 .telephone {
 	font-size: 21px;
 	line-height: 21px;
 	color: #ee3643;
+	text-align: center;
 }
 
 .adress {
@@ -86,35 +150,62 @@ h5 {
 	color: #32425c;
 }
 
+.telephone-adress {
+	float: left;
+	margin-right: 90px;
+}
+
 .user-block {
+	display: flex;
 	font-size: 21px;
 	line-height: 21px;
 	color: #000000;
 }
 
-.main-navigation {
-	font-size: 17px;
-	line-height: 17px;
-	background-color: #32425c;
+.user-block a:hover {
+	color: #ee3643;
 }
 
-.main-navigation li:hover {
+.user-block a:active {
+	color: rgba(0,0,0,.3)
+}
+
+.sign-up {
+	float: left;
+	margin-right: 60px;
+}
+
+.second-strips {
+	margin-bottom: 45px;
+}
+
+.main-navigation {
+	text-align: center;
+	font-size: 17px;
+	line-height: 17px;
+	
+}
+
+.site-navigation {
+	background-color: #32425c;
+	box-shadow: 0 5px 0 #293449;
+}
+
+.site-navigation li:hover {
 	background: #293449;
 }
 
-.main-navigation li:active {
+.site-navigation li:active {
 	background: #1d2739;
 }
 
 .site-navigation a {
 	color: white;
 	margin: 0 auto;
-
 }
 
 .site-navigation {
 	list-style: none;
-	
 }
 
 .category-caption {
@@ -183,6 +274,7 @@ h5 {
 	width: 300px;
 	height: 123px;
 	background-color: #ffc047;
+	
 }
 
 .btn {
@@ -309,17 +401,43 @@ h5 {
 	color: #ffffff;
 }
 
-.copyright .mail-site {
+.e-mail {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.developer {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.developer .mail-site {
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffd180;
 }
 
-.copyright .mail-site:hover {
+.developer .mail-site:hover {
 	text-decoration: underline;
 }
 
-.copyright .mail-site:active {
+.developer .mail-site:active {
+	color: #ee3643;
+}
+
+.e-mail .mail-site {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffd180;
+}
+
+.e-mail .mail-site:hover {
+	text-decoration: underline;
+}
+
+.e-mail .mail-site:active {
 	color: #ee3643;
 }
 
@@ -411,7 +529,7 @@ h5 {
 }
 
 .block {
-	margin-bottom: 85px;
+	margin-bottom: 120px;
 }
 
 .popular-product {
@@ -428,4 +546,209 @@ h5 {
 
 main {
 	margin-bottom: 80px;
+}
+
+.header-top {
+	margin-bottom: 55px;
+	width: 100%;
+	background-color: #293449;
+	min-height: 42px;
+	
+}
+
+.header-top a {
+	color: white;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.header-top-inner {
+	display: flex;
+}
+
+.top-menu {
+	display: flex;
+}
+
+.bookmarks {
+	width: 150px;
+}
+
+.basket {
+	width: 150px;
+}
+
+.ordering {
+	width: 150px;
+}
+
+.site-navigation {
+	display: flex; 
+	flex-direction: row; 
+	padding: 0; 
+	justify-content: center; 
+}
+
+.site-navigation li {
+	flex-grow: 1;
+}
+	
+.site-navigation a {
+	display: block;
+	padding-top: 19px;
+	padding-bottom: 19px;
+}
+
+.category-caption {
+	display: block;
+	padding-left: 20px;
+	padding-top: 25px;
+}
+
+.category-btn {
+	width: 135px;
+	height: 18px;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-top: 7px; 
+	padding-bottom: 7px;
+	border-radius: 5%;
+}
+
+.block1 {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.block2 {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.block3 {
+	float: right;
+	margin-bottom: 20px;
+}
+
+.slider {
+	float: left;
+	margin-right: 20px;
+}
+
+
+.block4 {
+	float: right;
+	margin-bottom: 20px;
+}
+
+.block5 {
+	margin-bottom: 20px;
+	float: right;
+}
+
+.tehnomart {
+	width: 220px;
+	min-height: 45px;
+	float: left;
+	margin-right: 150px;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+.site-navigation-top {
+	display: flex;
+	padding-top: 40px;
+	justify-content: flex-start;
+}
+
+.site-navigation-bottom {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.footer-adress {
+	float: left;
+	margin-right: 70px; 
+}
+
+.footer-navigation-top {
+	margin-bottom: 40px;
+}
+
+.footer-navigation-bottom {
+	padding-bottom: 55px;
+}
+
+.site-navigation-top li {
+	margin-right: 55px;
+}
+
+.footer-navigation-bottom li {
+	margin-right: 55px;
+}
+
+.bottom {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.copyright {
+	float: left;
+	padding-right: 170px;
+}
+
+.social {	
+	float: left;
+	padding-right: 115px;
+}
+
+.e-mail {
+	float: left;
+	padding-right: 55px;
+}
+
+.social-btn-vk {
+	float: left;
+	padding-right: 5px;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	background-color: #212a3a;
+}
+
+.social-btn-vk:hover {
+	background-color: #ee3643;
+}
+
+
+.social-btn-fb {
+	float: left;
+	padding-right: 5px;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	background-color: #212a3a;
+}
+
+.social-btn-fb:hover {
+	background-color: #ee3643;
+}
+
+.social-btn-inst {
+	float: left;
+	padding-right: 5px;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	background-color: #212a3a;
+}
+
+.social-btn-inst:hover {
+	background-color: #ee3643;
 }
