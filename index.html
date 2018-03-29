@@ -86,9 +86,13 @@
                 </div>
 
                 <div class="slider">
-                    <div class="drills-img">
-                        <img src="img/slider.jpg" alt="Перфораторы" width="620" height="266">
-                    </div>
+                    <ul class="slider-ul"> 
+                        <li class="slide slide-1 active"><span class="slider-span-1">Дрели</span><span class="slider-span-2">Соседям на радость!</span></li> 
+                        <li class="slide slide-2"><span class="slider-span-1">Перфораторы</span><span class="slider-span-2">Настоящие мужские игрушки</span></li> 
+                        <input type="button" class="left"></button> 
+                        <input type="button" class="right"></button>
+                        <a class="btn slider-btn" href="catalog.html">открыть каталог</a> 
+                    </ul> 
                 </div>
 
                 <div class="block4">
@@ -213,10 +217,29 @@
                             <li><button class="servises-btn btn-2">Гарантия</button></li>
                             <li><button class="servises-btn btn-3">Кредит</button></li>
                         </ul>
-                        <div class="delivery-description-h3">
-                            <span class="delivery-h3">Доставка</span>
-                            <span class="delivery-description">Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно бесплатно!<br>
-                            Ведь мы неплохо заработаем,<br> поднимая его на ваш этаж!</span>
+                        <div class="gray"></div>
+                        <div class="delivery-main">
+                            <div class="delivery-description-h3">
+                                <span class="delivery-h3">Доставка</span>
+                                <span class="delivery-description">Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно бесплатно!<br>
+                                Ведь мы неплохо заработаем,<br> поднимая его на ваш этаж!</span>
+                            </div>
+                        </div>
+                        <div class="guarantee">
+                            <div class="guarantee-description-h3">
+                                <span class="guarantee-h3">Гарантия</span>
+                                <span class="guarantee-description">Если купленный у нас товар поломается или заискрит,<br> 
+                                а также в случае пожара, спровоцированного его возгаранием,<br>  вы всегда можете быть уверены в нашей гарантии. Мы обменяем<br> сгоревший товар на новый.<br> 
+                                Дом уж восстановите как-нибудь сами.</span>
+                            </div>
+                        </div>
+                        <div class="credit">
+                            <div class="credit-description-h3">
+                                <span class="credit-h3">Кредит</span>
+                                <span class="credit-description">Залезть в долговую яму стало проще!<br>
+                                Кредитные консультанты придут вам на помощь.</span>
+                                <a class="btn credit-btn" href="#">отправить заявку</a>
+                            </div>
                         </div>
                     </div>
                 </div>      
@@ -245,7 +268,7 @@
                 <div class="map">
                     <a href="#po-pup"><img src="img/map.jpg" width="297" height="156" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
                 </div>
-                <a class="btn" href="write-us.html">заблудились? напишите нам</a>
+                <a class="btn write-us" href="write-us.html">заблудились? напишите нам</a>
             </section>
         </main>
 
@@ -335,9 +358,33 @@
             </ul>
         </div>
 
-        <script>
-            var popup = document.querySelector (".for-popup");
-            popup.classList.add("popup-show")
-        </script>
+        <script> 
+            var left = document.querySelector('.left'); 
+            var right = document.querySelector('.right'); 
+            var slides = document.querySelectorAll('.slide'); 
+            var curSlide = 0; 
+            
+            left.addEventListener('click', function () { 
+            slide('left'); 
+            }); 
+            
+            right.addEventListener('click', function () { 
+            slide('right'); 
+            }) 
+            
+            function slide (direction) { 
+            var count = slides.length; 
+            
+            var nextSlide = direction === 'left' ? curSlide - 1 : curSlide + 1; 
+            nextSlide = nextSlide > count - 1 ? 0 : 
+            (nextSlide < 0 ? count - 1 : nextSlide); 
+            
+            slides[nextSlide].style.display = 'block'; 
+            slides[curSlide].style.display = 'none'; 
+            
+            curSlide = nextSlide; 
+            
+            } 
+            </script>
     </body>
 </html>
