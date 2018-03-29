@@ -15,7 +15,7 @@
                 <div class="container header-top-inner">
                     <a href="index.html"><h1 class="h1-first">Техномарт</h1></a>
                     <div class="search">
-                        <label for="search-label"></label>
+                        <label for="search"></label>
                         <input type="search" name="search" placeholder="Поиск" id="search" class="search-input">
                         <span class="search-icon"></span>
                     </div>
@@ -72,7 +72,7 @@
                     <span class="category-caption">Материалы</span>
                     <a class="category-btn" href="materials.html">на любой вкус</a>
                     <div class="new-block1">
-                        <img src="img/new.png">
+                        <img src="img/new.png" alt="Новинка" width="60px" height="60px">
                     </div>
                 </div>
 
@@ -90,9 +90,9 @@
                     <ul class="slider-ul"> 
                         <li class="slide slide-1 active"><span class="slider-span-1">Дрели</span><span class="slider-span-2">Соседям на радость!</span></li> 
                         <li class="slide slide-2"><span class="slider-span-1">Перфораторы</span><span class="slider-span-2">Настоящие мужские игрушки</span></li> 
-                        <input type="button" class="left"></button> 
-                        <input type="button" class="right"></button>
-                        <a class="btn slider-btn" href="catalog.html">открыть каталог</a> 
+                        <li><input type="button" class="left"></li>
+                        <li><input type="button" class="right"></li>
+                        <li><a class="btn slider-btn" href="catalog.html">открыть каталог</a></li>
                     </ul> 
                 </div>
 
@@ -105,6 +105,7 @@
                     <span class="category-caption">Доставка</span>
                     <a class="category-btn" href="materials.html">бесплатно</a>
                 </div>
+            </div>
             </section>
             
             <div class="container">
@@ -206,7 +207,7 @@
             </section>
             </div>
 
-
+            <div class="container">
             <section class="servises">
                 <h2 class="servises-h2">Сервисы</h2>
                 <span class="servises-description">Хороший интернет-магазин отличается от плохого не только ценами!<br>
@@ -245,7 +246,8 @@
                             </div>
                         </div>
                     </div>
-                </div>      
+                </div>
+                    
             </section>
 
             <div class="clearfix contacts-wrapper">
@@ -273,14 +275,15 @@
                     <a href="#" onClick="openModal('map-modal')"><img src="img/map.jpg" width="297" height="156" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
                 </div>
                 <div class="modal-map" id="map-modal">
-                    <button class="modal-content-close-map" type="button" onClick="closeModal('map-modal')"><img src="img/form-2.svg"></button>
+                    <button class="modal-content-close-map" type="button" onClick="closeModal('map-modal')"><img src="img/form-2.svg" alt="Закрыть" width="20" height="20"></button>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d594.1898431367896!2d30.32281709519088!3d59.938639343398236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1460921418112"
-                      width="940" height="448" frameborder="0" style="border:0" allowfullscreen>
+                      width="940" height="448" style="border:0" allowfullscreen>
                     </iframe>
                   </div>
                 <a class="btn" href="write-us.html" onClick="openModal('write-us')">заблудились? напишите нам</a>
             </section>
-        </div>
+            </div>
+            </div>  
         </main>
 
         <footer class="first-footer">
@@ -339,7 +342,7 @@
 
         <section class="popup" id="write-us">
             <div class="red-line"></div>
-            <button class="button-popup-catalog" onClick="closeModal('write-us')"><img src="img/form-2.svg"></button>
+            <button class="button-popup-catalog" onClick="closeModal('write-us')"><img src="img/form-2.svg" alt="Закрыть" width="20" height="20"></button>
             <form action="https://echo.htmlacademy.ru" method="post" class="form-popup">
                 <div class="popup-ul">
                     <div>
@@ -361,7 +364,7 @@
 
             <div class="popup-catalog" id="id-buy">
                 <div class="red-line"></div>
-                <button class="button-popup-catalog" onClick="closeModal('id-buy')"><img src="img/form-2.svg"></button>
+                <button class="button-popup-catalog" onClick="closeModal('id-buy')"><img src="img/form-2.svg" alt="Закрыть" width="20" height="20"></button>
                 <span class="popup-span-catalog"> Товар добавлен в корзину!</span>
                 <ul class="popup-ul-catalog">
                     <li><a href="#" class="btn">Оформить заказ</a></li>
