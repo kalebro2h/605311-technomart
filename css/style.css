@@ -706,6 +706,22 @@ h5 {
 	border-top: 0px;
 }
 
+.tab-button_active {
+	background-color: #ffffff;
+	color: #32425c;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+}
+  
+.tab-content {
+	display: none;
+}
+  
+.tab-content_active {
+	display: block;
+}
+
 .btn-2:focus {
 	background-color: #ffffff;
 	color: #32425c;
@@ -1546,18 +1562,6 @@ hr {
  font-family: PT Sans, sans-serif;
 }
 
-.delivery-main {
-	display: block;
-}
-
-.guarantee {
-	display: none;
-}
-
-.credit {
-	display: none;
-}
-
 .delivery-description {
 	display: block;
 	font-family: PT Sans, sans-serif;
@@ -1704,6 +1708,7 @@ hr {
 	left: 880px;
 	border: 0px;
 	outline: none;
+	background-color: transparent;
 }
 
 .tehnomart {

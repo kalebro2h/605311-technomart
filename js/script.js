@@ -26,8 +26,8 @@ function slide (direction) {
 
 function openTab (id, obj) {
 	var tab = document.getElementById(id);
-    var active = document.querySelector('.tab-button_active');
-    var activeTab = document.querySelector('.tab-content_active');
+  var active = document.querySelector('.tab-button_active');
+  var activeTab = document.querySelector('.tab-content_active');
   
   active.classList.remove('tab-button_active');
   obj.classList.add('tab-button_active');
