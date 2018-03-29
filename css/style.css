@@ -1611,10 +1611,6 @@ hr {
 	margin-left: 40px;
 }
 
-.credit {
-	display: none;
-}
-
 .credit-description-h3:after {
 	content: url(../img/credit.png);
 	z-index:-1;
