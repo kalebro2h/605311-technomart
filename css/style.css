@@ -1077,7 +1077,7 @@ h5 {
 }
 
 .popular-manufacturers {
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 }
 
 .popular-manufacturers-ul {
@@ -1120,10 +1120,6 @@ h5 {
 
 .popular-manufacturers-ul .metabo {
 	margin-right: 0px;
-}
-
-main {
-	margin-bottom: 80px;
 }
 
 .header-top {
@@ -1368,7 +1364,7 @@ hr {
 .drill-buy-buy a {
 	display: block;
 	width: 135px;
-	margin-top: 45px;
+	margin-top: 37px;
 	margin-left: 40px;
 	background-color: #63a63e;
 	text-align: center;
@@ -1414,7 +1410,7 @@ hr {
 	text-transform: uppercase;
 	border-radius: 3px;
 	border: 3px solid #63a63e;
-	margin-bottom: 69px;
+	margin-bottom: 59px;
 	color: black;
 }
 
@@ -1436,9 +1432,9 @@ hr {
  }
 
  .drill img {
-	 padding-top: 40px;
+	 padding-top: 32px;
 	 padding-left: 20px;
-	 padding-bottom: 40px;
+	 padding-bottom: 30px;
  }
 
  .drill-new img {
