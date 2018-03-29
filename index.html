@@ -16,7 +16,8 @@
                     <a href="index.html"><h1 class="h1-first">Техномарт</h1></a>
                     <div class="search">
                         <label for="search-label"></label>
-                        <input type="search" name="search" placeholder="Поиск" id="search">
+                        <input type="search" name="search" placeholder="Поиск" id="search" class="search-input">
+                        <span class="search-icon"></span>
                     </div>
                     <div class="top-menu">
                         <a class="bookmarks" href="#bookmarks">Закладки: 0</a>
@@ -119,7 +120,7 @@
                         </div>
                         <div class="drill-hiden">
                             <div class="drill-buy-buy">
-                                <a href="#">купить</a>
+                                <a href="#" onClick="openModal('id-buy')">купить</a>
                             </div>
                             <div class="bookmarks-drill">
                                 <a href="#">в закладки</a>
@@ -137,7 +138,7 @@
                         </div>
                         <div class="drill-hiden">
                             <div class="drill-buy-buy">
-                                <a href="#">купить</a>
+                                <a href="#" onClick="openModal('id-buy')">купить</a>
                             </div>
                             <div class="bookmarks-drill">
                                 <a href="#">в закладки</a>
@@ -155,7 +156,7 @@
                         </div>
                         <div class="drill-hiden">
                             <div class="drill-buy-buy">
-                                <a href="#">купить</a>
+                                <a href="#" onClick="openModal('id-buy')">купить</a>
                             </div>
                             <div class="bookmarks-drill">
                                 <a href="#">в закладки</a>
@@ -173,7 +174,7 @@
                         </div>
                         <div class="drill-hiden">
                             <div class="drill-buy-buy">
-                                <a href="#">купить</a>
+                                <a href="#" onClick="openModal('id-buy')">купить</a>
                             </div>
                             <div class="bookmarks-drill">
                                 <a href="#">в закладки</a>
@@ -245,6 +246,7 @@
                 </div>      
             </section>
 
+            <div class="clearfix contacts-wrapper">
             <section class="company-tehnomart">
                 <h2 class="company-tehnomart-h2">компания «техномарт»</h2>
                 <div class="company-tehnomart-desription">
@@ -266,10 +268,17 @@
                 <p>Вы можете забрать товар сами,<br> заехав в наш офис.</p>
                 </div>
                 <div class="map">
-                    <a href="#po-pup"><img src="img/map.jpg" width="297" height="156" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
+                    <a href="#" onClick="openModal('map-modal')"><img src="img/map.jpg" width="297" height="156" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
                 </div>
-                <a class="btn write-us" href="write-us.html">заблудились? напишите нам</a>
+                <div class="modal-map" id="map-modal">
+                    <button class="modal-content-close-map" type="button" onClick="closeModal('map-modal')"><img src="img/form-2.svg"></button>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d594.1898431367896!2d30.32281709519088!3d59.938639343398236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1460921418112"
+                      width="940" height="448" frameborder="0" style="border:0" allowfullscreen>
+                    </iframe>
+                  </div>
+                <a class="btn" href="write-us.html" onClick="openModal('write-us')">заблудились? напишите нам</a>
             </section>
+        </div>
         </main>
 
         <footer class="first-footer">
@@ -326,9 +335,9 @@
             </div>
         </footer>
 
-        <section class="popup">
+        <section class="popup" id="write-us">
             <div class="red-line"></div>
-            <button class="button-popup-catalog"><img src="img/form-2.svg"></button>
+            <button class="button-popup-catalog" onClick="closeModal('write-us')"><img src="img/form-2.svg"></button>
             <form action="https://echo.htmlacademy.ru" method="post" class="form-popup">
                 <div class="popup-ul">
                     <div>
@@ -348,43 +357,16 @@
                 </form>                 
             </section>
 
-        <div class="popup-catalog">
-            <div class="red-line"></div>
-            <button class="button-popup-catalog"><img src="img/form-2.svg"></button>
-            <span class="popup-span-catalog"> Товар добавлен в корзину!</span>
-            <ul class="popup-ul-catalog">
-                <li><a href="#" class="btn">Оформить заказ</a></li>
-                <li><button class="btn-popup-n">Продолжить покупки</button></li>
-            </ul>
-        </div>
+            <div class="popup-catalog" id="id-buy">
+                <div class="red-line"></div>
+                <button class="button-popup-catalog" onClick="closeModal('id-buy')"><img src="img/form-2.svg"></button>
+                <span class="popup-span-catalog"> Товар добавлен в корзину!</span>
+                <ul class="popup-ul-catalog">
+                    <li><a href="#" class="btn">Оформить заказ</a></li>
+                    <li><button class="btn-popup-n">Продолжить покупки</button></li>
+                </ul>
+            </div>
 
-        <script> 
-            var left = document.querySelector('.left'); 
-            var right = document.querySelector('.right'); 
-            var slides = document.querySelectorAll('.slide'); 
-            var curSlide = 0; 
-            
-            left.addEventListener('click', function () { 
-            slide('left'); 
-            }); 
-            
-            right.addEventListener('click', function () { 
-            slide('right'); 
-            }) 
-            
-            function slide (direction) { 
-            var count = slides.length; 
-            
-            var nextSlide = direction === 'left' ? curSlide - 1 : curSlide + 1; 
-            nextSlide = nextSlide > count - 1 ? 0 : 
-            (nextSlide < 0 ? count - 1 : nextSlide); 
-            
-            slides[nextSlide].style.display = 'block'; 
-            slides[curSlide].style.display = 'none'; 
-            
-            curSlide = nextSlide; 
-            
-            } 
-            </script>
+        <script src="js/script.js"></script>
     </body>
 </html>

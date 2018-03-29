@@ -32,20 +32,10 @@ a {
 }
 
 h1 {
-	display: block;
 	font-size: 24px;
-	line-height: 21px;
+	line-height: 24px;
 	text-transform: uppercase;
 	background-color: #ee3643;
-	box-shadow: 0 5px 0 #b52933;
-	text-align: center;
-	color: white;
-	margin: 0px;
-	width: 220px;
-	text-align: center;
-	padding-top: 11px;
-	padding-bottom: 9px;
-	
 }
 
 h2 {
@@ -62,6 +52,20 @@ h5 {
 	margin-top: 25px;
 }
 
+.h1-first {
+	display: block;
+	background-color: #ee3643;
+	box-shadow: 0 5px 0 #b52933;
+	text-align: center;
+	color: white;
+	margin: 0px;
+	width: 220px;
+	text-align: center;
+	padding-top: 11px;
+	padding-bottom: 9px;
+	font-weight: normal;
+}
+
 .h1-first:hover {
 	background-color: #ca2c37;
 }
@@ -71,147 +75,164 @@ h5 {
 }
 
 .contacts-h2 {
+	font-weight: normal;
 	text-transform: uppercase;
 	color: black;
 }
 
 .h2-popular-product {
+	font-weight: normal;
 	margin-top: 85px;
-	margin-right: 405px;
+	margin-right: 370px;
 	float: left;
 	color: #32425c;
 	margin-left: 30px;
 }
 
 .h2-popular-manufacturers {
-	margin-right: 325px;
+	font-weight: normal;
+	margin-right: 290px;
 	float: left;
 	margin-left: 30px;
 	color: #32425c;
 }
 
+.servises-h2 {
+	font-weight: normal;
+}
+
+.company-tehnomart-h2 {
+	font-weight: normal;
+	margin-top: 0px;
+}
+
 .drills-h2 {
+	font-weight: normal;
 	margin-left: 30px;
 	color: #32425c;
 	margin-bottom: 55px;
 }
 
-.search {
-	background-image: url(../img/lupa1.png);
-	background-repeat: no-repeat;
-	background-position: 7px 12px;
-	background-color: #293449;
+.h2-about-drill {
+	font-weight: normal;
 }
 
-input[type="search"] {
+.search {
+	height: 45px;
+	position: relative;
+}
+
+.search-input {
+	background-color: #293449;
+	border: 0px;
+	color: #e0e1e3;
+	width: 268px;
+	padding-left: 30px;
+	height: 45px;
+	outline: none;
+}
+
+.search-icon {
+	display: block;
+	background-image: url(../img/lupa1.png);
+	background-repeat: no-repeat;
+	background-color: #293449;
+	position: absolute;
+	bottom: 12px;
+	left: 5px;
+	width: 20px;
+	height: 20px;
+}
+
+.search-input {
 	font-size: 17px;
 	line-height: 18px;
 	background-color: #293449;
 }
 
-input[type="search"]::-webkit-input-placeholder {
+.search-input::-webkit-input-placeholder {
     color: #ffffff;
 } 
 
-input[type="search"]::-moz-placeholder {
+.search-input::-moz-placeholder {
 	color: #ffffff;
 }
 
-input[type="search"]:focus {
-	background-color: white;
-	color: black;
-}
-
-input[type="search"]:hover {
-	background-color: #212a3a;
-	color: black;
-}
-
-input[type="search"]:hover .search {
-	background-color: #212a3a;
-}
-
-.search:hover {
-	background-color: #212a3a;
+.search-input:hover +.search-icon {
 	background-image: url(../img/lupa2.png);
-	background-repeat: no-repeat;
-	background-position: 7px 12px;
 }
 
-.search:focus {
-	background-color: white;
+.search-input:hover {
+	background-color: #212a3a;
+}
+
+.search-input:focus +.search-icon {
 	background-image: url(../img/lupa4.png);
-	background-repeat: no-repeat;
-	background-position: 7px 12px;
+	background-color: white;
 }
 
-input[type="search"]:focus .search {
+.search-input:focus {
 	background-color: white;
-	background-image: url(../img/lupa4.png);
-	background-repeat: no-repeat;
-	background-position: 7px 12px;
 }
 
-input[type="search"]:focus::-webkit-input-placeholder {
-	color: black;
-	background-color: white;
+.search-input:focus::-webkit-input-placeholder {
+    color: black;
 } 
 
-input[type="search"]:focus::-moz-placeholder {
+.search-input:focus::-moz-placeholder {
 	color: black;
-	background-color: white;
 }
 
 .bookmarks {
 	display: block;
 	width: 150px;
-	padding-top: 12px;
+	padding-top: 14px;
 	padding-bottom: 12px;
 	text-align: center;
 	background-color: #293449;
 	background-image: url(../img/book-start.png);
 	background-repeat: no-repeat;
-	background-position: 7px 12px;
+	background-position: 7px 14px;
 }
 
 .bookmarks:hover {
 	background-color: #212a3a;
 	background-image: url(../img/icon-bookmark.svg);
 	background-repeat: no-repeat;
-	background-position: 7px 12px;
+	background-position: 7px 14px;
 }
 
 .bookmarks:active {
 	background-color: #161d29;
 	background-image: url(../img/book-end.png);
 	background-repeat: no-repeat;
-	background-position: 7px 12px;
+	background-position: 7px 14px;
 }
 
 .basket {
 	display: block;
 	text-align: center;
-	padding-top: 12px;
+	padding-top: 14px;
 	padding-bottom: 12px;
 	text-align: center;
 	background-color: #293449;
 	background-image: url(../img/cort-start.png);
 	background-repeat: no-repeat;
-	background-position: 7px 12px;
+	background-position: 7px 14px;
 }
 
 .basket:hover {
 	background-color: #212a3a;
 	background-image: url(../img/icon-cart.svg);
 	background-repeat: no-repeat;
-	background-position: 7px 12px;
+	background-position: 7px 14px;
 }
 
 .basket:active {
 	background-color: #161d29;
 	background-image: url(../img/cort-end.png);
 	background-repeat: no-repeat;
-	background-position: 7px 12px;
+	background-position: 7px 14px;
 }
 
 .basket-catalog {
@@ -224,21 +245,21 @@ input[type="search"]:focus::-moz-placeholder {
 	width: 150px;
 	background-image: url(../img/cort-start.png);
 	background-repeat: no-repeat;
-	background-position: 7px 12px;
+	background-position: 7px 14px;
 }
 
 .basket-catalog:hover {
 	background-color: #ee3643;
 	background-image: url(../img/icon-cart.svg);
 	background-repeat: no-repeat;
-	background-position: 7px 12px;
+	background-position: 7px 14px;
 }
 
 .basket-catalog:active {
 	background-color: #ee3643;
 	background-image: url(../img/cort-end.png);
 	background-repeat: no-repeat;
-	background-position: 7px 12px;
+	background-position: 7px 14px;
 }
 
 .top-menu {
@@ -352,11 +373,16 @@ input[type="search"]:focus::-moz-placeholder {
 	margin-bottom: 45px;
 }
 
+.second-strips-catalog {
+	margin-bottom: 28px;
+}
+
 .main-navigation {
 	text-align: center;
 	font-size: 17px;
 	line-height: 17px;
 	margin-bottom: 120px;
+	margin-top: 0px;
 }
 
 .site-navigation {
@@ -366,7 +392,7 @@ input[type="search"]:focus::-moz-placeholder {
 	display: flex; 
 	flex-direction: row; 
 	padding: 0; 
-	justify-content: center; 
+	justify-content: center;
 }
 
 .site-navigation li {
@@ -529,7 +555,8 @@ input[type="search"]:focus::-moz-placeholder {
 	background: url(../img/icon-left.svg) no-repeat; 
 	border: 0px; 
 	width: 25px; 
-	height: 40px; 
+	height: 40px;
+	outline: none;
 } 
 	
 .right { 
@@ -539,7 +566,8 @@ input[type="search"]:focus::-moz-placeholder {
 	background: url(../img/icon-right.svg) no-repeat; 
 	border: 0px; 
 	width: 25px; 
-	height: 40px; 
+	height: 40px;
+	outline: none; 
 }
 
 .slider-btn {
@@ -604,8 +632,8 @@ input[type="search"]:focus::-moz-placeholder {
 	margin-bottom: 25px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-right: 40px;
-	padding-left: 40px;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
 .btn:hover {
@@ -638,9 +666,10 @@ input[type="search"]:focus::-moz-placeholder {
 	background-repeat: no-repeat;
 	display: inline-block;
 	position: relative;
-	font-size: 18px;
-	line-height: 20px;
+	font-size: 17px;
+	line-height: 18px;
 	font-family: PT Sans, Arial, sens-serif;
+	font-weight: bold;
 	color: white;
 	width: 140px;
 	height: 40px;
@@ -723,6 +752,11 @@ input[type="search"]:focus::-moz-placeholder {
 	display: none;
 	width: 620px;
 	box-shadow: 0px 5px 50px 0px black;
+	position: fixed;
+	background-color: white;
+	top: 20%;
+	left: 50%;
+	margin-left: -310px;
 }
 
 .form-popup label {
@@ -753,6 +787,7 @@ input[type="search"]:focus::-moz-placeholder {
 	border: 1px solid #dee3e4;
 	padding: 10px;
 	border-radius: 3px;
+	outline: none;
 }
 
 .input-name:hover,
@@ -787,6 +822,10 @@ input[type="search"]:focus::-moz-placeholder {
 	background-image: url(../img/form-1.svg);
 	background-repeat: no-repeat;
 	background-position: 70px 80px;
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	margin-left: -310px;
 }
 
 .popup-catalog-show {
@@ -799,6 +838,7 @@ input[type="search"]:focus::-moz-placeholder {
 	bottom: -10px;
 	background: white;
 	border: 0px;
+	outline: none;
 }
 
 .popup-span-catalog {
@@ -1010,22 +1050,6 @@ input[type="search"]:focus::-moz-placeholder {
 	position: relative;
 }
 
- .page-number {
-	font-family: PT Sans, Arial, sens-serif;
-	font-size: 13px;
-	line-height: 18px;
-	border: 1px;
-	border-color: #e5e5e5;
-}
-
-.page-number:hover {
-	border-color: #bdc6ca;
-}
-
-.page-number:active {
-	border-color: #ee3643;
-}
-
 .about-driils {
 	font-size: 13px;
 	line-height: 24px;
@@ -1033,7 +1057,7 @@ input[type="search"]:focus::-moz-placeholder {
 }
 
 .popular-product {
-	margin-bottom: 50px;
+	margin-bottom: -30px;
 }
 
 .popular-manufacturers {
@@ -1115,7 +1139,7 @@ main {
 }
 
 .ordering {
-	width: 150px;
+	width: 126px;
 }
 
 .price {
@@ -1294,16 +1318,7 @@ main {
 
 .range-catalog {
 	width: 180px;
-	margin-left: 35px;
-}
-
-input[type="search"] {
-	background-color: #293449;
-	border: 0px;
-	color: #e0e1e3;
-	width: 220px;
-	min-height: 40px;
-	margin-left: 30px;
+	margin-left: 15px;
 }
 
 .manufacturer-filter label {
@@ -1451,14 +1466,17 @@ hr {
 	 list-style-type: none;
  }
 
- .page-number {
-	 margin-right: 10px;
-	 border: 1px solid #e5e5e5;
-	 padding-right: 14px;
-	 padding-top: 8px;
-	 padding-bottom: 10px;
-	 padding-left: 16px;
-	 border-radius: 3px;
+.page-number {
+	font-family: PT Sans, Arial, sens-serif;
+	font-size: 13px;
+	line-height: 18px;
+	margin-right: 10px;
+	border: 1px solid #e5e5e5;
+	padding-right: 14px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+	border-radius: 3px;
 }
 
 .page-number:hover {
@@ -1469,19 +1487,28 @@ hr {
 	border: 1px solid #ee3643;
 }
 
-.page-number:focus {
+.page-selected {
+	font-family: PT Sans, Arial, sens-serif;
+	font-size: 13px;
+	line-height: 18px;
+	margin-right: 10px;
 	border: 1px solid #ee3643;
+	padding-right: 14px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+	border-radius: 3px;
 	background-color: #ee3643;
 	color: white;
 }
 
 .page-next {
 	border: 1px solid #e5e5e5;
-	 padding-right: 20px;
-	 padding-top: 8px;
-	 padding-bottom: 10px;
-	 padding-left: 20px;
-	 border-radius: 3px;
+	padding-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	border-radius: 3px;
 }
 
 .page-next:hover {
@@ -1490,12 +1517,6 @@ hr {
 
 .page-next:active {
 	border: 1px solid #ee3643;
-}
-
-.page-next:focus {
-	border: 1px solid #ee3643;
-	background-color: #ee3643;
-	color: white;
 }
 
 .user-information {
@@ -1525,6 +1546,18 @@ hr {
  font-family: PT Sans, sans-serif;
 }
 
+.delivery-main {
+	display: block;
+}
+
+.guarantee {
+	display: none;
+}
+
+.credit {
+	display: none;
+}
+
 .delivery-description {
 	display: block;
 	font-family: PT Sans, sans-serif;
@@ -1547,14 +1580,6 @@ hr {
 	position: relative;
 	bottom: 150px;
 	left: 250px;
-}
-
-.delivery-main {
-	display: block;
-}
-
-.guarantee {
-	display: none;
 }
 
 .guarantee-description-h3:after {
@@ -1630,6 +1655,10 @@ hr {
 	width: 600px;
 }
 
+.contacts-wrapper {
+	position: relative;
+}
+
 .company-tehnomart-desription {
 	font-family: PT Sans, sans-serif;
 }
@@ -1659,6 +1688,22 @@ hr {
 
 .map {
 	margin-bottom: 40px; 
+}
+
+.modal-map {
+	display: none;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+.modal-content-close-map {
+	position: relative;
+	top: 50px;
+	left: 880px;
+	border: 0px;
+	outline: none;
 }
 
 .tehnomart {

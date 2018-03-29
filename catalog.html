@@ -15,7 +15,9 @@
                 <div class="container header-top-inner">
                     <a href="index.html"><h1 class="h1-first">Техномарт</h1></a>
                     <div class="search">
-                        <input type="search" name="search" placeholder="Поиск" id="search">
+                        <label for="search-label"></label>
+                        <input type="search" name="search" placeholder="Поиск" id="search" class="search-input">
+                        <span class="search-icon"></span>
                     </div>
                     <div class="top-menu">
                         <a class="bookmarks" href="#bookmarks">Закладки: 0</a>
@@ -25,7 +27,7 @@
                 </div>
             </div>
 
-            <div class="second-strips">
+            <div class="second-strips-catalog">
                 <div class="container">
                     <div class="desription">
                         Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта
@@ -142,7 +144,7 @@
                         </div>
                         <div class="drill-hiden">
                             <div class="drill-buy-buy">
-                                <a href="#">купить</a>
+                                <a href="#" onClick="openModal('id-buy')">купить</a>
                             </div>
                             <div class="bookmarks-drill">
                                 <a href="#">в закладки</a>
@@ -160,7 +162,7 @@
                         </div>
                         <div class="drill-hiden">
                             <div class="drill-buy-buy">
-                                <a href="#">купить</a>
+                                <a href="#" onClick="openModal('id-buy')">купить</a>
                             </div>
                             <div class="bookmarks-drill">
                                 <a href="#">в закладки</a>
@@ -178,7 +180,7 @@
                         </div>
                         <div class="drill-hiden">
                             <div class="drill-buy-buy">
-                                <a href="#">купить</a>
+                                <a href="#" onClick="openModal('id-buy')">купить</a>
                             </div>
                             <div class="bookmarks-drill">
                                 <a href="#">в закладки</a>
@@ -195,7 +197,7 @@
                         </div>
                         <div class="drill-hiden">
                             <div class="drill-buy-buy">
-                                <a href="#">купить</a>
+                                <a href="#" onClick="openModal('id-buy')">купить</a>
                             </div>
                             <div class="bookmarks-drill">
                                 <a href="#">в закладки</a>
@@ -213,7 +215,7 @@
                         </div>
                         <div class="drill-hiden">
                             <div class="drill-buy-buy">
-                                <a href="#">купить</a>
+                                <a href="#" onClick="openModal('id-buy')">купить</a>
                             </div>
                             <div class="bookmarks-drill">
                                 <a href="#">в закладки</a>
@@ -231,7 +233,7 @@
                         </div>
                         <div class="drill-hiden">
                             <div class="drill-buy-buy">
-                                <a href="#">купить</a>
+                                <a href="#" onClick="openModal('id-buy')">купить</a>
                             </div>
                             <div class="bookmarks-drill">
                                 <a href="#">в закладки</a>
@@ -248,7 +250,7 @@
                         </div>
                         <div class="drill-hiden">
                             <div class="drill-buy-buy">
-                                <a href="#">купить</a>
+                                <a href="#" onClick="openModal('id-buy')">купить</a>
                             </div>
                             <div class="bookmarks-drill">
                                 <a href="#">в закладки</a>
@@ -266,7 +268,7 @@
                         </div>
                         <div class="drill-hiden">
                             <div class="drill-buy-buy">
-                                <a href="#">купить</a>
+                                <a href="#" onClick="openModal('id-buy')">купить</a>
                             </div>
                             <div class="bookmarks-drill">
                                 <a href="#">в закладки</a>
@@ -284,7 +286,7 @@
                         </div>
                         <div class="drill-hiden">
                             <div class="drill-buy-buy">
-                                <a href="#">купить</a>
+                                <a href="#" onClick="openModal('id-buy')">купить</a>
                             </div>
                             <div class="bookmarks-drill">
                                 <a href="#">в закладки</a>
@@ -299,7 +301,7 @@
 
                 <ul class="number-page">
                     <li>
-                        <a href="#1" class="page-number">1</a>
+                        <a href="#1" class="page-selected">1</a>
                     </li>
                     <li>
                         <a href="#2" class="page-number">2</a>
@@ -313,7 +315,7 @@
                 </ul>
             </section>
 
-            <h2>пара слов о перфораторах</h2>
+            <h2 class="h2-about-drill">пара слов о перфораторах</h2>
             <div class="about-driils">
                 <p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. <br>
                 Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шурупооверта и отбойного молотка. В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молток и ударная дрель.</p>
@@ -373,6 +375,19 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="popup-catalog" id="id-buy">
+                    <div class="red-line"></div>
+                    <button class="button-popup-catalog" onClick="closeModal('id-buy')"><img src="img/form-2.svg"></button>
+                    <span class="popup-span-catalog"> Товар добавлен в корзину!</span>
+                    <ul class="popup-ul-catalog">
+                        <li><a href="#" class="btn">Оформить заказ</a></li>
+                        <li><button class="btn-popup-n">Продолжить покупки</button></li>
+                    </ul>
+                </div>
+
+                <script src="js/script.js"></script>
+
             </footer>
     </body>
 </html>
