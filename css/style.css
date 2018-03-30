@@ -82,11 +82,12 @@ h5 {
 
 .h2-popular-product {
 	font-weight: normal;
-	margin-top: 85px;
 	margin-right: 370px;
 	float: left;
 	color: #32425c;
 	margin-left: 30px;
+	padding-top: 0px;
+	margin-top: 0px;
 }
 
 .h2-popular-manufacturers {
@@ -110,11 +111,24 @@ h5 {
 	font-weight: normal;
 	margin-left: 30px;
 	color: #32425c;
-	margin-bottom: 55px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #f2f6f8;
+	padding-left: 30px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	margin-top: 0px;
 }
 
 .h2-about-drill {
 	font-weight: normal;
+	margin: 0px;
+}
+
+.about-drills-div {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #f2f6f8;
 }
 
 .search {
@@ -126,8 +140,8 @@ h5 {
 	background-color: #293449;
 	border: 0px;
 	color: #e0e1e3;
-	width: 268px;
-	padding-left: 30px;
+	width: 269px;
+	padding-left: 50px;
 	height: 45px;
 	outline: none;
 }
@@ -139,8 +153,8 @@ h5 {
 	background-color: #293449;
 	position: absolute;
 	bottom: 12px;
-	left: 5px;
-	width: 20px;
+	left: 15px;
+	width: 35px;
 	height: 20px;
 }
 
@@ -296,7 +310,7 @@ h5 {
 	font-size: 21px;
 	line-height: 21px;
 	color: #ee3643;
-	
+	background-color: #f1f5f7;
 }
 
 .telephone:before {
@@ -311,12 +325,14 @@ h5 {
 
 .telephone-adress {
 	float: left;
-	margin-right: 70px;
+	margin-right: 50px;
 }
 
 .user-block {
 	display: flex;
 	list-style-type: none;
+	background-color: #ffffff;
+	margin-top: 0px;
 }
 
 .sign-up a {
@@ -354,7 +370,7 @@ h5 {
 .registration {
 	display: block;
 	float: left;
-	margin-right: 60px;
+	margin-right: 25px;
 	font-size: 21px;
 	line-height: 21px;
 	color: #000000;
@@ -370,19 +386,23 @@ h5 {
 }
 
 .second-strips {
-	margin-bottom: 45px;
+	padding-bottom: 68px;
+	padding-top: 55px;
+	background-color: #f4f7f9;
 }
 
 .second-strips-catalog {
-	margin-bottom: 28px;
+	padding-bottom: 35px;
+	padding-top: 55px;
 }
 
 .main-navigation {
 	text-align: center;
 	font-size: 17px;
 	line-height: 17px;
-	margin-bottom: 120px;
+	padding-bottom: 50px;
 	margin-top: 0px;
+	background-color: #f1f5f7;
 }
 
 .site-navigation {
@@ -393,6 +413,7 @@ h5 {
 	flex-direction: row; 
 	padding: 0; 
 	justify-content: center;
+	margin-top: 0px;
 }
 
 .site-navigation li {
@@ -439,6 +460,7 @@ h5 {
 	font-size: 24px;
 	line-height: 30px;
 	color: #ffffff;
+	font-weight: bold;
 }
 
 .category-btn {
@@ -465,6 +487,10 @@ h5 {
 
 .category-btn:active {
 	background-color: rgba(0,0,0,.3);
+}
+
+.block {
+	margin-top: 45px;
 }
 
 .block1 {
@@ -557,6 +583,7 @@ h5 {
 	width: 25px; 
 	height: 40px;
 	outline: none;
+	Text-indent: -9999px;
 } 
 	
 .right { 
@@ -568,6 +595,7 @@ h5 {
 	width: 25px; 
 	height: 40px;
 	outline: none; 
+	Text-indent: -9999px;
 }
 
 .slider-btn {
@@ -627,13 +655,18 @@ h5 {
 	text-transform: uppercase;
 	background: #ee3643;
 	text-align: center;
-	border-radius: 5px;
+	border-radius: 3px;
 	margin-top: 20px;
 	margin-bottom: 25px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right: 50px;
 	padding-left: 50px;
+}
+
+.ppt {
+	padding-right: 65px;
+	padding-left: 65px;
 }
 
 .btn:hover {
@@ -895,6 +928,8 @@ h5 {
 	font-size: 16px;
 	line-height: 18px;
 	color: #32425c;
+	margin-top: 23px;
+	margin-left: 40px;
 }
 
 .user-information a:hover {
@@ -907,8 +942,13 @@ h5 {
 }
 
 .login {
+	display: inline-block;
 	font-size: 21px;
 	line-height: 21px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	background-color: #ffffff;
 }
 
 .login:before {
@@ -918,7 +958,7 @@ h5 {
 
 .login:after {
 	content: url(../img/icon-logout.svg);
-	margin-left: 35px;
+	margin-left: 25px;
 }
 
 .login:active {
@@ -938,26 +978,31 @@ h5 {
 	line-height: 18px;
 	font-family: PT Sans, Arial, sens-serif;
 	text-transform: uppercase;
-	margin-top: -35px;
-	margin-bottom: 55px;
 }
 
 .navigation-ul {
 	display: flex;
 	padding: 0px;
 	list-style-type: none;
+	margin: 0px;
+	padding-top: 17px;
+	padding-bottom: 17px;
 }
 
 .navigation-ul li {
-	margin-right: 20px;
+	margin-right: 12px;
 }
 
 .filter {
+	display: block;
 	font-size: 13px;
 	line-height: 18px;
 	font-family: PT Sans, Arial, sens-serif;
 	text-transform: uppercase;
 	margin-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #f7f3ec;
 }
 
 .manufacturer-filter {
@@ -971,10 +1016,6 @@ h5 {
 	list-style-type: none;
 }
 
-.manufacturer-filter-ul li {
- margin-bottom: 10px;
-}
-
 .power-filter {
 	font-family: PT Sans, Arial, sens-serif;
 	text-transform: uppercase;
@@ -984,10 +1025,6 @@ h5 {
 
 .power-filter-ul {
 	list-style-type: none;
-}
-
-.power-filter-ul li {
-	margin-bottom: 10px;
 }
 
 .power-filter-ul label {
@@ -1004,13 +1041,13 @@ h5 {
 	background: url(../img/checkbox-off.svg) no-repeat;
 	position: absolute;
 	top: -5px;
-	left: 0px;
+	left: -30px;
 	width: 25px;
 	height: 25px;
 }
 
 .checkbox-catalog + label {
-	padding-left: 40px;
+	padding-left: 10px;
 }
 
 .checkbox-catalog:checked + label::before {
@@ -1040,13 +1077,13 @@ h5 {
 	background: url(../img/radio-off.svg) no-repeat;
 	position: absolute;
 	top: -5px;
-	left: 0px;
+	left: -30px;
 	width: 25px;
 	height: 25px;
 }
 
 .radio-catalog + label {
-	padding-left: 40px;
+	padding-left: 10px;
 }
 
 .radio-catalog:checked + label::before {
@@ -1077,7 +1114,7 @@ h5 {
 }
 
 .popular-manufacturers {
-	margin-bottom: 100px;
+	margin-bottom: 120px;
 }
 
 .popular-manufacturers-ul {
@@ -1089,7 +1126,7 @@ h5 {
 
 .popular-manufacturers-t {
 	display: flex;
-	margin-bottom: 20px;
+	background-color: #f9f5f0;
 }
 
 .popular-manufacturers-ul li {
@@ -1123,7 +1160,6 @@ h5 {
 }
 
 .header-top {
-	margin-bottom: 55px;
 	width: 100%;
 	background-color: #293449;
 	min-height: 42px;
@@ -1155,7 +1191,8 @@ h5 {
 }
 
 .price {
-	margin-top: 35px;	
+	margin-top: 35px;
+	margin-bottom: 0px;
 }
 
 .hyphen {
@@ -1164,8 +1201,8 @@ h5 {
 }
 
 .price-min {
-	margin-top: 50px;
-	margin-bottom: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .manufacturer-filter ul {
@@ -1194,6 +1231,9 @@ h5 {
 
 .submenu {
 	margin-bottom: 35px;
+	background-color: #f7f3ec;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .sorting {
@@ -1275,8 +1315,8 @@ h5 {
 .drills {
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 55px;
 	padding-left: 0px;
+	margin-bottom: 30px;
 }
 
 .drills ul {
@@ -1308,6 +1348,7 @@ h5 {
 	text-transform: uppercase;
 	font-size: 15px;
 	line-height: 20px;
+	background-color: #f7f3ec;
 }
 
 .price-max {
@@ -1318,6 +1359,7 @@ h5 {
 	text-transform: uppercase;
 	font-size: 15px;
 	line-height: 20px;
+	background-color: #f7f3ec;
 }
 
 .checkbox-catalog {
@@ -1330,7 +1372,36 @@ h5 {
 
 .range-catalog {
 	width: 180px;
-	margin-left: 15px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background-color: #f7f3ec;
+}
+
+.range-catalog {
+    -webkit-appearance: none;
+    margin: 18px 0;
+}
+
+.range-catalog:focus {
+    outline: none;
+}
+
+.range-catalog::-webkit-slider-runnable-track {
+    height: 5px;
+    cursor: pointer;
+    background: #00ca74;
+    border-radius: 2px;
+}
+
+.range-catalog::-webkit-slider-thumb {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
 }
 
 .manufacturer-filter label {
@@ -1469,7 +1540,7 @@ hr {
 
  .number-page {
 	 margin-left: 190px;
-	 margin-bottom: 130px;
+	 margin-bottom: 60px;
 	 display: flex;
 	 font-family: PT Sans, Arial, sens-serif;
 	 font-size: 13px;
@@ -1533,6 +1604,9 @@ hr {
 
 .user-information {
 	display: flex;
+	padding-left: 20px;
+	padding-top: 7px;
+	margin-top: 10px;
 }
 
 .my-orders {
@@ -1552,6 +1626,9 @@ hr {
 
 .popular-product-t {
 	display: flex;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #f9f5f0;
 }
 
 .servises-description {
@@ -1579,7 +1656,7 @@ hr {
 	content: url(../img/car.png);
 	position: relative;
 	bottom: 150px;
-	left: 250px;
+	left: 200px;
 }
 
 .guarantee-description-h3:after {
@@ -1643,12 +1720,12 @@ hr {
 }
 
 .popular-product-btn {
-	margin-top: 80px;
+	margin-top: 0px;
 }
 
 .company-tehnomart {
 	float: left;
-	width: 600px;
+	width: 640px;
 }
 
 .contacts-wrapper {
@@ -1691,7 +1768,7 @@ hr {
 	position: absolute;
 	width: 100%;
 	left: 0px;
-	top: 0px;
+	bottom: 50px;
 }
 
 .modal-content-close-map {
@@ -1747,14 +1824,14 @@ hr {
 
 .social-btn-vk {
 	float: left;
-	padding-right: 5px;
+	margin-right: 5px;
 	width: 42px;
 	height: 42px;
-	border-radius: 50%;
+	border-radius: 100%;
 	background-color: #212a3a;
 	background-image: url(../img/icon-vk.svg);
 	background-repeat: no-repeat;
-	background-position: 10px 14px;
+	background-position: 8px 14px;
 }
 
 .social-btn-vk:hover {
@@ -1763,14 +1840,14 @@ hr {
 
 .social-btn-fb {
 	float: left;
-	padding-right: 5px;
+	margin-right: 5px;
 	width: 42px;
 	height: 42px;
-	border-radius: 50%;
+	border-radius: 100%;
 	background-color: #212a3a;
 	background-image: url(../img/icon-fb.svg);
 	background-repeat: no-repeat;
-	background-position: 17px 10px;
+	background-position: 15px 10px;
 }
 
 .social-btn-fb:hover {
@@ -1782,7 +1859,7 @@ hr {
 	padding-right: 5px;
 	width: 42px;
 	height: 42px;
-	border-radius: 50%;
+	border-radius: 100%;
 	background-color: #212a3a;
 	background-image: url(../img/icon-insta.svg);
 	background-repeat: no-repeat;
