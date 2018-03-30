@@ -1192,7 +1192,7 @@ h5 {
 
 .price {
 	margin-top: 35px;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 }
 
 .hyphen {
@@ -1370,38 +1370,35 @@ h5 {
 	margin-bottom: 25px;
 }
 
-.range-catalog {
-	width: 180px;
-	padding-bottom: 30px;
-	padding-top: 30px;
-	background-color: #f7f3ec;
+.range {
+    background-color: #f7f3ec;
+    width: 190px;
+	height: 80px;
+	position: relative;
 }
 
-.range-catalog {
-    -webkit-appearance: none;
-    margin: 18px 0;
+.circle {
+	position: absolute;
+	top: 25px;
+	z-index: 2;
 }
 
-.range-catalog:focus {
-    outline: none;
+.line-green {
+	position: absolute;
+	top: 20px;
+	z-index: 1;
 }
 
-.range-catalog::-webkit-slider-runnable-track {
-    height: 5px;
-    cursor: pointer;
-    background: #00ca74;
-    border-radius: 2px;
+.circle-2 {
+	position: absolute;
+	top: 25px;
+	z-index: 2;
+	left: 142px;
 }
 
-.range-catalog::-webkit-slider-thumb {
-    border: 1px solid black;
-    height: 20px;
-    width: 20px;
-    border-radius: 100%;
-    background: #ffffff;
-    cursor: pointer;
-    -webkit-appearance: none;
-    margin-top: -7px;
+.line-grey {
+	position: absolute;
+	top: 20px;
 }
 
 .manufacturer-filter label {
