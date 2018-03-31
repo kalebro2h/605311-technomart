@@ -87,7 +87,6 @@ h5 {
 	color: #32425c;
 	margin-left: 30px;
 	padding-top: 0px;
-	margin-top: 0px;
 }
 
 .h2-popular-manufacturers {
@@ -304,6 +303,7 @@ h5 {
 	margin-right: 80px;
 	margin-left: 55px;
 	float: left;
+	padding-top: 13px;
 }
 
 .telephone {
@@ -311,6 +311,10 @@ h5 {
 	line-height: 21px;
 	color: #ee3643;
 	background-color: #f1f5f7;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 3px solid white;
+	margin-bottom: 9px;
 }
 
 .telephone:before {
@@ -333,6 +337,7 @@ h5 {
 	list-style-type: none;
 	background-color: #ffffff;
 	margin-top: 0px;
+	padding-top: 7px;
 }
 
 .sign-up a {
@@ -387,13 +392,14 @@ h5 {
 
 .second-strips {
 	padding-bottom: 68px;
-	padding-top: 55px;
+	padding-top: 42px;
 	background-color: #f4f7f9;
 }
 
 .second-strips-catalog {
-	padding-bottom: 35px;
-	padding-top: 55px;
+	padding-bottom: 39px;
+	padding-top: 42px;
+	background-color: #f4f7f9;
 }
 
 .main-navigation {
@@ -667,7 +673,11 @@ h5 {
 .ppt {
 	padding-right: 65px;
 	padding-left: 65px;
+	margin-bottom: 20px;
+	height: 15px;
 }
+
+
 
 .btn:hover {
 	background-color: #ca2c37;
@@ -948,6 +958,7 @@ h5 {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
+	padding-top: 10px;
 	background-color: #ffffff;
 }
 
@@ -999,7 +1010,7 @@ h5 {
 	line-height: 18px;
 	font-family: PT Sans, Arial, sens-serif;
 	text-transform: uppercase;
-	margin-left: 20px;
+	padding-left: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: #f7f3ec;
@@ -1225,20 +1236,24 @@ h5 {
 	border-radius: 3px;
 }
 
-.formed {
+.filters {
 	float: left;
 }
 
 .submenu {
 	margin-bottom: 35px;
+	float: right;
+	padding-top: 2px;
 	background-color: #f7f3ec;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 2px;
 }
 
 .sorting {
-	margin-left: 55px;
-	margin-right: 140px;
+	margin-left: 20px;
+	margin-right: 155px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	font-size: 13px;
 	line-height: 18px;
 	font-family: PT Sans, Arial, sens-serif;
@@ -1372,33 +1387,36 @@ h5 {
 
 .range {
     background-color: #f7f3ec;
-    width: 190px;
+    width: 210px;
 	height: 80px;
 	position: relative;
 }
 
 .circle {
 	position: absolute;
-	top: 25px;
+	top: 27px;
 	z-index: 2;
+	left: 10px;
 }
 
 .line-green {
 	position: absolute;
 	top: 20px;
 	z-index: 1;
+	left: 10px;
 }
 
 .circle-2 {
 	position: absolute;
-	top: 25px;
+	top: 27px;
 	z-index: 2;
-	left: 142px;
+	left: 152px;
 }
 
 .line-grey {
 	position: absolute;
 	top: 20px;
+	left: 10px;
 }
 
 .manufacturer-filter label {
@@ -1623,8 +1641,6 @@ hr {
 
 .popular-product-t {
 	display: flex;
-	padding-top: 15px;
-	padding-bottom: 15px;
 	background-color: #f9f5f0;
 }
 
