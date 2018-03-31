@@ -338,6 +338,7 @@ h5 {
 	background-color: #ffffff;
 	margin-top: 0px;
 	padding-top: 7px;
+	padding-left: 0px;
 }
 
 .sign-up a {
@@ -345,13 +346,14 @@ h5 {
 	width: 77px;
 	text-align: end;
 	float: left;
-	margin-right: 60px;
+	padding-right: 60px;
 	font-size: 21px;
 	line-height: 21px;
 	color: #000000;
 	padding-left: 0px;
 	background-image: url(../img/sign-in-first.png);
 	background-repeat: no-repeat;
+	padding-left: 40px;
 }
 
 .sign-up a:hover {
@@ -408,7 +410,7 @@ h5 {
 	line-height: 17px;
 	padding-bottom: 50px;
 	margin-top: 0px;
-	background-color: #f1f5f7;
+	background-color: #f4f7f9;
 }
 
 .site-navigation {
