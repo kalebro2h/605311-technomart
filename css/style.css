@@ -449,6 +449,7 @@ h5 {
 	padding-top: 40px;
 	justify-content: flex-start;
 	list-style-type: none;
+	margin-top: 0px;
 }
 
 .site-navigation-bottom {
@@ -1251,8 +1252,7 @@ h5 {
 }
 
 .sorting {
-	margin-left: 20px;
-	margin-right: 155px;
+	margin-right: 130px;
 	padding-left: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -1270,7 +1270,7 @@ h5 {
 	color: rgba(0,0,0,.3);
 	text-decoration: none;
 	border-bottom: 1px dashed #ee3643;
-	margin-right: 65px;
+	margin-right: 75px;
 }
 
 .for-price:hover {
@@ -1291,7 +1291,7 @@ h5 {
 	color: rgba(0,0,0,.3);
 	text-decoration: none;
 	border-bottom: 1px dashed #ee3643;
-	margin-right: 60px;
+	margin-right: 70px;
 }
 
 .for-tips:hover {
@@ -1312,7 +1312,7 @@ h5 {
 	color: rgba(0,0,0,.3);
 	text-decoration: none;
 	border-bottom: 1px dashed #ee3643;
-	margin-right: 40px;
+	margin-right: 50px;
 }
 
 .for-function:hover {
@@ -1327,6 +1327,10 @@ h5 {
 
 .up-icon {
 	margin-right: 20px;
+}
+
+.down-icon {
+	margin-right: 10px;
 }
 
 .drills {
@@ -1396,28 +1400,28 @@ h5 {
 
 .circle {
 	position: absolute;
-	top: 27px;
+	top: 32px;
 	z-index: 2;
 	left: 10px;
 }
 
 .line-green {
 	position: absolute;
-	top: 20px;
+	top: 25px;
 	z-index: 1;
 	left: 10px;
 }
 
 .circle-2 {
 	position: absolute;
-	top: 27px;
+	top: 32px;
 	z-index: 2;
 	left: 152px;
 }
 
 .line-grey {
 	position: absolute;
-	top: 20px;
+	top: 25px;
 	left: 10px;
 }
 
