@@ -42,6 +42,7 @@ function openModal(id) {
 }
 
 function closeModal(id) { 
+	event.preventDefault();
 	var modal = document.getElementById(id); 
 	modal.style.display = 'none'; 
 }

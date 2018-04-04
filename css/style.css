@@ -83,7 +83,6 @@ h5 {
 
 .h2-popular-product {
 	font-weight: normal;
-	margin-right: 370px;
 	color: #32425c;
 	margin-left: 30px;
 	padding-top: 0px;
@@ -91,7 +90,6 @@ h5 {
 
 .h2-popular-manufacturers {
 	font-weight: normal;
-	margin-right: 290px;
 	margin-left: 30px;
 	color: #32425c;
 }
@@ -103,6 +101,10 @@ h5 {
 .company-tehnomart-h2 {
 	font-weight: normal;
 	margin-top: 0px;
+}
+
+.drill {
+	text-align: center;
 }
 
 .drills-h2 {
@@ -121,6 +123,15 @@ h5 {
 .h2-about-drill {
 	font-weight: normal;
 	margin: 0px;
+}
+
+.manufacturer-filter-h5 {
+	margin-bottom: 20px;
+}
+
+.power-filter-h5 {
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .about-drills-div {
@@ -172,6 +183,7 @@ h5 {
 
 .search-input:hover +.search-icon {
 	background-image: url(../img/lupa2.svg);
+	background-color: #212a3a;
 }
 
 .search-input:hover {
@@ -318,7 +330,8 @@ h5 {
 
 .telephone:before {
 	content: url(../img/icon-phone.svg);
-	margin-right: 40px;
+	margin-right: 25px;
+	margin-left: 15px;
 }
 
 .adress {
@@ -527,12 +540,13 @@ h5 {
 }
 
 .block {
-	margin-top: 55px;
+	margin-top: 60px;
 }
 
 .all-blocks {
 	display: flex;
 	flex-wrap: wrap;
+	height: 465px;
 }
 
 .blocks1-2-3 {
@@ -720,9 +734,8 @@ h5 {
 	padding-left: 65px;
 	margin-bottom: 20px;
 	height: 15px;
+	margin-right: 20px;
 }
-
-
 
 .btn:hover {
 	background-color: #ca2c37;
@@ -730,14 +743,6 @@ h5 {
 
 .btn:active {
 	background-color: #ba2732;
-}
-
-
-.bosch-description {
-	font-size: 18px;
-	line-height: 20px;
-	font-weight: bold;
-	font-family: PT Sans, Arial, sens-serif;
 }
 
 .old-price {
@@ -764,7 +769,7 @@ h5 {
 	text-align: center;
 	padding-top: 10px;
 	margin-bottom: 10px;
-	margin-left: 45px;
+
 	vertical-align: top;
 }
 
@@ -829,7 +834,7 @@ h5 {
 
 .servises-btns {
 	padding-left: 0px;
-	margin-top: 80px;
+	margin-top: 70px;
 	margin-bottom: 45px;
 	list-style-type: none;
 	min-height: 200px;
@@ -1047,8 +1052,8 @@ h5 {
 	padding: 0px;
 	list-style-type: none;
 	margin: 0px;
-	padding-top: 17px;
-	padding-bottom: 17px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .navigation-ul li {
@@ -1080,6 +1085,7 @@ h5 {
 
 .manufacturer-filter-ul {
 	list-style-type: none;
+	margin-bottom: 0px;
 }
 
 .power-filter {
@@ -1106,7 +1112,7 @@ h5 {
 	content: "";
 	background: url(../img/checkbox-off.svg) no-repeat;
 	position: absolute;
-	top: -5px;
+	top: -3px;
 	left: -30px;
 	width: 25px;
 	height: 25px;
@@ -1173,6 +1179,7 @@ h5 {
 	font-size: 13px;
 	line-height: 24px;
 	font-family: PT Sans, Arial, sens-serif;
+	margin-top: 30px;
 }
 
 .popular-product {
@@ -1180,7 +1187,7 @@ h5 {
 }
 
 .popular-manufacturers {
-	margin-bottom: 120px;
+	margin-bottom: 140px;
 }
 
 .popular-manufacturers-ul {
@@ -1192,6 +1199,7 @@ h5 {
 
 .popular-manufacturers-t {
 	display: flex;
+	justify-content: space-between;
 	background-color: #f9f5f0;
 }
 
@@ -1253,7 +1261,7 @@ h5 {
 }
 
 .price {
-	margin-top: 35px;
+	margin-top: 15px;
 	margin-bottom: 20px;
 }
 
@@ -1293,7 +1301,7 @@ h5 {
 }
 
 .submenu {
-	margin-bottom: 35px;
+	margin-bottom: 20px;
 	display: flex;
 	padding-top: 5px;
 	background-color: #f7f3ec;
@@ -1391,7 +1399,8 @@ h5 {
 	display: flex;
 	flex-wrap: wrap;
 	padding-left: 0px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
+	margin-top: 20px;
 }
 
 .drills ul {
@@ -1401,7 +1410,7 @@ h5 {
 .drills li {
 	display: block;
 	width: 220px;
-	min-height: 320px;
+	min-height: 318px;
 	outline: 1px solid #e5e5e5;
 	margin-right: 20px;
 	margin-bottom: 20px;
@@ -1424,6 +1433,9 @@ h5 {
 	font-size: 15px;
 	line-height: 20px;
 	background-color: #f7f3ec;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
 }
 
 .price-max {
@@ -1435,6 +1447,9 @@ h5 {
 	font-size: 15px;
 	line-height: 20px;
 	background-color: #f7f3ec;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
 }
 
 .checkbox-catalog {
@@ -1578,7 +1593,7 @@ hr {
  }
 
  .drill img {
-	 padding-top: 32px;
+	 padding-top: 40px;
 	 padding-left: 20px;
 	 padding-bottom: 30px;
  }
@@ -1590,13 +1605,18 @@ hr {
  .bosch-description {
 	 display: block;
 	 text-align: center;
-	 margin-bottom: 15px;
+	 margin-bottom: 10px;
+	 margin-top: 4px;
+	 font-size: 18px;
+	 line-height: 20px;
+	 font-weight: bold;
+	 font-family: PT Sans, Arial, sens-serif;
  }
 
  .old-price {
 	display: block;
 	text-align: center;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
  }
 
  .drill2000 {
@@ -1606,12 +1626,12 @@ hr {
  }
 
  .third .bosch-description {
-	margin-bottom: 48px;
+	margin-bottom: 38px;
  }
 
  .number-page {
-	 margin-left: 190px;
-	 margin-bottom: 60px;
+	 margin-left: 200px;
+	 margin-bottom: 65px;
 	 display: flex;
 	 font-family: PT Sans, Arial, sens-serif;
 	 font-size: 13px;
@@ -1686,19 +1706,20 @@ hr {
 
 .popular-product-t {
 	display: flex;
+	justify-content: space-between;
 	background-color: #f9f5f0;
 }
 
 .servises-description {
- font-family: PT Sans, sans-serif;
- width: 400px;
+	font-family: PT Sans, sans-serif;
+	width: 400px;
 }
 
 .delivery-description {
 	display: block;
 	font-family: PT Sans, sans-serif;
 	margin-left: 40px;
-	margin-top: 40px;
+	margin-top: 25px;
 }
 
 .delivery-h3 {
@@ -1707,7 +1728,7 @@ hr {
 	line-height: 36px;
 	text-transform: uppercase;
 	color: #32425c;
-	margin-top: 80px;
+	margin-top: 70px;
 	margin-left: 40px;
 }
 
@@ -1730,7 +1751,7 @@ hr {
 	display: block;
 	font-family: PT Sans, sans-serif;
 	margin-left: 40px;
-	margin-top: 40px;
+	margin-top: 25px;
 }
 
 .guarantee-h3 {
@@ -1739,7 +1760,7 @@ hr {
 	line-height: 36px;
 	text-transform: uppercase;
 	color: #32425c;
-	margin-top: 80px;
+	margin-top: 70px;
 	margin-left: 40px;
 }
 
@@ -1755,7 +1776,7 @@ hr {
 	display: block;
 	font-family: PT Sans, sans-serif;
 	margin-left: 40px;
-	margin-top: 40px;
+	margin-top: 25px;
 	margin-bottom: 30px;
 }
 
@@ -1765,7 +1786,7 @@ hr {
 	line-height: 36px;
 	text-transform: uppercase;
 	color: #32425c;
-	margin-top: 80px;
+	margin-top: 70px;
 	margin-left: 40px;
 }
 
@@ -1775,7 +1796,7 @@ hr {
 
 .servises-cont {
 	display: flex;
-	height: 420px;
+	height: 430px;
 }
 
 .popular-product-btn {
@@ -1798,13 +1819,18 @@ hr {
 .transport-company {
 	font-size: 18px;
 	line-height: 20px;
-	margin-bottom: 35px;
+	margin-bottom: 42px;
 	padding-left: 0px;
 	list-style-type: none;
+	margin-top: 0px;
 }
 
 .transport-company li {
-	padding-top: 22px;
+	padding-top: 20px;
+}
+
+.transport-company .transport-company-li {
+	padding-top: 10px;
 }
 
 .transport-company li:before {
@@ -1816,7 +1842,10 @@ hr {
 	padding-right: 25px;
 	font-weight: bold;
 	margin-right: 10px;
-	vertical-align: top;
+}
+
+.shoping {
+	margin-bottom: 25px;
 }
 
 .map {
@@ -1849,7 +1878,7 @@ hr {
 }
 
 .footer-navigation-top {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .footer-navigation-bottom {
