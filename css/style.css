@@ -136,7 +136,7 @@ h5 {
 
 .about-drills-div {
 	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-bottom: 50px;
 	background-color: #f2f6f8;
 }
 
@@ -1182,7 +1182,9 @@ h5 {
 	margin-top: 30px;
 }
 
-
+.popular-product {
+	margin-bottom: -30px;
+}
 
 .popular-manufacturers {
 	margin-bottom: 140px;
@@ -1291,19 +1293,40 @@ h5 {
 	line-height: 18px;
 	background-color: white;
 	border-radius: 3px;
+	outline: none;
+}
+
+.submit-catalog:hover {
+	border: 1px solid #bdc6ca;
+}
+
+.submit-catalog:active {
+	border: 1px solid #ee3643;
+}
+
+.flex-catalog {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .filters {
-	float: left;
+	display: flex;
 	margin-right: 20px;
 }
 
+.a123 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 708px;
+}
+
 .submenu {
-	margin-bottom: 20px;
 	display: flex;
 	padding-top: 5px;
 	background-color: #f7f3ec;
 	padding-bottom: 5px;
+	height: 28px;
+	width: 100%;
 }
 
 .submenu a {
@@ -1312,7 +1335,7 @@ h5 {
 }
 
 .sorting {
-	margin-right: 130px;
+	margin-right: 144px;
 	padding-left: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -1372,7 +1395,7 @@ h5 {
 	color: rgba(0,0,0,.3);
 	text-decoration: none;
 	border-bottom: 1px dashed #ee3643;
-	margin-right: 50px;
+	margin-right: 45px;
 }
 
 .for-function:hover {
@@ -1414,12 +1437,17 @@ h5 {
 	margin-bottom: 20px;
 }
 
-.drills .third {
+.drill-main .drill:nth-child(4n) {
+	margin-right: 0px;
+}
+
+.drills-catalog .drill:nth-child(3n) {
 	margin-right: 0px;
 }
 
 .drills-catalog {
 	padding-left: 8px;
+	margin-bottom: 30px;
 }
 
 .price-min {
@@ -1876,7 +1904,7 @@ hr {
 }
 
 .footer-navigation-top {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .footer-navigation-bottom {
@@ -1885,7 +1913,7 @@ hr {
 }
 
 .social {	
-	padding-right: 115px;
+	padding-right: 105px;
 	display: flex;
 }
 
@@ -1895,8 +1923,8 @@ hr {
 
 .social-btn-vk {
 	margin-right: 5px;
-	width: 42px;
-	height: 42px;
+	width: 40px;
+	height: 40px;
 	border-radius: 100%;
 	background-color: #212a3a;
 	background-image: url(../img/icon-vk.svg);
@@ -1910,8 +1938,8 @@ hr {
 
 .social-btn-fb {
 	margin-right: 5px;
-	width: 42px;
-	height: 42px;
+	width: 40px;
+	height: 40px;
 	border-radius: 100%;
 	background-color: #212a3a;
 	background-image: url(../img/icon-fb.svg);
@@ -1925,8 +1953,8 @@ hr {
 
 .social-btn-inst {
 	padding-right: 5px;
-	width: 42px;
-	height: 42px;
+	width: 40px;
+	height: 40px;
 	border-radius: 100%;
 	background-color: #212a3a;
 	background-image: url(../img/icon-insta.svg);
