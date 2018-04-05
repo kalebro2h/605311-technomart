@@ -55,7 +55,6 @@ h5 {
 .h1-first {
 	display: block;
 	background-color: #ee3643;
-	box-shadow: 0 5px 0 #b52933;
 	text-align: center;
 	color: white;
 	margin: 0px;
@@ -64,6 +63,7 @@ h5 {
 	padding-top: 11px;
 	padding-bottom: 9px;
 	font-weight: normal;
+	box-shadow: 0 5px 0 #b52933;
 }
 
 .h1-first:hover {
@@ -312,7 +312,7 @@ h5 {
 	font-style: italic;
 	color: #ee3643;
 	line-height: 23px;
-	margin-right: 80px;
+	margin-right: 75px;
 	margin-left: 55px;
 	padding-top: 5px;
 }
@@ -773,6 +773,14 @@ h5 {
 	vertical-align: top;
 }
 
+.servises {
+	padding-top: 40px;
+}
+
+.color-servises {
+	background-color: #f5f8fa;
+}
+
 .servises-btn {
 	font-size: 21px;
 	line-height: 30px;
@@ -852,7 +860,7 @@ h5 {
 }
 
 .contacts {
-	margin-bottom: 85px; 
+	margin-bottom: 90px; 
 }
 
 .contacts-desription {
@@ -1187,7 +1195,7 @@ h5 {
 }
 
 .popular-manufacturers {
-	margin-bottom: 140px;
+	margin-bottom: 65px;
 }
 
 .popular-manufacturers-ul {
@@ -1195,6 +1203,7 @@ h5 {
 	flex-wrap: wrap;
 	list-style-type: none;
 	padding-left: 0px;
+	padding-top: 7px;
 }
 
 .popular-manufacturers-t {
@@ -1314,10 +1323,10 @@ h5 {
 	margin-right: 20px;
 }
 
-.a123 {
+.flex-drills-catalog {
 	display: flex;
 	flex-wrap: wrap;
-	width: 708px;
+	width: 703px;
 }
 
 .submenu {
@@ -1374,7 +1383,7 @@ h5 {
 	color: rgba(0,0,0,.3);
 	text-decoration: none;
 	border-bottom: 1px dashed #ee3643;
-	margin-right: 70px;
+	margin-right: 65px;
 }
 
 .for-tips:hover {
@@ -1446,8 +1455,8 @@ h5 {
 }
 
 .drills-catalog {
-	padding-left: 8px;
 	margin-bottom: 30px;
+	width: 703px;
 }
 
 .price-min {
@@ -1462,6 +1471,7 @@ h5 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-top: 10px;
+	border-radius: 2px;
 }
 
 .price-max {
@@ -1476,6 +1486,7 @@ h5 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-top: 10px;
+	border-radius: 2px;
 }
 
 .checkbox-catalog {
@@ -1488,7 +1499,7 @@ h5 {
 
 .range {
     background-color: #f7f3ec;
-    width: 210px;
+    width: 100%;
 	height: 80px;
 	position: relative;
 }
@@ -1497,27 +1508,27 @@ h5 {
 	position: absolute;
 	top: 32px;
 	z-index: 2;
-	left: 10px;
+	left: 15px;
 }
 
 .line-green {
 	position: absolute;
 	top: 25px;
 	z-index: 1;
-	left: 10px;
+	left: 15px;
 }
 
 .circle-2 {
 	position: absolute;
 	top: 32px;
 	z-index: 2;
-	left: 152px;
+	left: 157px;
 }
 
 .line-grey {
 	position: absolute;
 	top: 25px;
-	left: 10px;
+	left: 15px;
 }
 
 .manufacturer-filter label {
@@ -1822,7 +1833,7 @@ hr {
 
 .servises-cont {
 	display: flex;
-	height: 430px;
+	height: 360px;
 }
 
 .popular-product-btn {
@@ -1836,6 +1847,7 @@ hr {
 .contacts-wrapper {
 	position: relative;
 	display: flex;
+	margin-top: 75px;
 }
 
 .company-tehnomart-desription {
