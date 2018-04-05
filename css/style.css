@@ -1455,7 +1455,7 @@ h5 {
 }
 
 .drills-catalog {
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	width: 703px;
 }
 
@@ -1667,7 +1667,6 @@ hr {
  }
 
  .number-page {
-	 margin-left: 200px;
 	 margin-bottom: 65px;
 	 display: flex;
 	 font-family: PT Sans, Arial, sens-serif;
@@ -1675,6 +1674,7 @@ hr {
 	 line-height: 18px;
 	 text-transform: uppercase;
 	 list-style-type: none;
+	 padding-left: 0px;
  }
 
 .page-number {
